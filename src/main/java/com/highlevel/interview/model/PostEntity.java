@@ -34,11 +34,15 @@ public class PostEntity extends BaseEntity {
     @Column(name = "post_id", unique = true)
     private String postId;
 
-    @Size(max = DbConstant.COL_LEN_255, message = "title must be less than 255 characters")
+    @Size(
+        max = DbConstant.POST_TITLE_MAX_LEN,
+        message = "title must be at most " + DbConstant.POST_TITLE_MAX_LEN + " characters")
     @Column(name = "title", nullable = false)
     private String title;
 
-    @Size(max = DbConstant.COL_LEN_255, message = "title must be less than 255 characters")
+    @Size(
+        max = DbConstant.POST_BODY_MAX_LEN,
+        message = "body must be at most " + DbConstant.POST_BODY_MAX_LEN + " characters")
     @Column(name = "body")
     private String body;
 
