@@ -1,10 +1,10 @@
-package com.firstclub.membership;
+package com.highlevel.interview;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MembershipApplicationTests {
+class MainBackendApplicationTests {
 
   @Test
   void contextLoads() {}

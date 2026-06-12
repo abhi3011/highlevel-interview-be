@@ -1,4 +1,4 @@
-package com.firstclub.membership.model;
+package com.highlevel.interview.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

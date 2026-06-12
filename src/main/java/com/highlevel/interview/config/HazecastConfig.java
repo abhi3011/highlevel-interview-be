@@ -1,4 +1,4 @@
-package com.firstclub.membership.config;
+package com.highlevel.interview.config;
 
 import com.hazelcast.config.Config;
 import com.hazelcast.core.Hazelcast;

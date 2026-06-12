@@ -1,12 +1,12 @@
-package com.firstclub.membership;
+package com.highlevel.interview;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MembershipApplication {
+public class MainBackendApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(MembershipApplication.class, args);
+    SpringApplication.run(MainBackendApplication.class, args);
   }
 }

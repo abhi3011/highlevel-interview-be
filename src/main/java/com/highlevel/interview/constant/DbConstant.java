@@ -1,4 +1,4 @@
-package com.firstclub.membership.constant;
+package com.highlevel.interview.constant;
 
 public class DbConstant {
 

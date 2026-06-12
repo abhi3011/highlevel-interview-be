@@ -1,6 +1,6 @@
-package com.firstclub.membership.exception;
+package com.highlevel.interview.exception;
 
-import com.firstclub.membership.dto.ErrorResponseDto;
+import com.highlevel.interview.dto.ErrorResponseDto;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
 import java.time.Instant;

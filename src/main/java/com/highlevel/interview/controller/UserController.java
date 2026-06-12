@@ -1,6 +1,6 @@
-package com.firstclub.membership.controller;
+package com.highlevel.interview.controller;
 
-import com.firstclub.membership.dto.UserResponseDto;
+import com.highlevel.interview.dto.UserResponseDto;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.firstclub.membership.dto;
+package com.highlevel.interview.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;

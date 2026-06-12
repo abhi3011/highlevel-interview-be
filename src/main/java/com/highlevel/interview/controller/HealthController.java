@@ -1,4 +1,4 @@
-package com.firstclub.membership.controller;
+package com.highlevel.interview.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

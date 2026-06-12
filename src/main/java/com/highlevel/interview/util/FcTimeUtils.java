@@ -1,4 +1,4 @@
-package com.firstclub.membership.util;
+package com.highlevel.interview.util;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
